@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 825px;
   margin: 0 auto;
 }
 
@@ -20,15 +21,23 @@ body {
   position: relative;
 }
 
+.decoword {
+  clear: both;
+  margin-bottom: 20px;
+}
+
 .product-title {
   background-color: #f7f7f7;
   text-align: center;
   text-transform: uppercase;
   font-size: 22px;
+  padding: 15px;
 }
 
 .price {
   font-size: 24px;
+  display: inline;
+  float: left;
 }
 
 .shipping {
@@ -37,6 +46,8 @@ body {
   font-weight: bold;
   color: #777;
   margin-bottom: 20px;
+  float: right;
+  margin-top: 4px;
 }
 
 .details-title {
@@ -126,4 +137,21 @@ a:hover, a:active {
 
 .color-brown {
   background-color: brown;
+}
+
+.first-sub {
+  width: 240px;
+  float: left;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.second-section {
+  width: 240px;
+  float: left;
+}
+
+.product-image {
+  float: left;
+  margin-right: 40px;
 }
